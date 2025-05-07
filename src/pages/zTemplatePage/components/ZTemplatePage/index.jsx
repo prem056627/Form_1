@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';
 import { ReactComponent as ThemeBg } from '../../../../assets/images/svg/theme1.svg';
+import { ReactComponent as MobileBg } from '../../../../assets/images/svg/mobile.svg';
+
+
 import emailjs from '@emailjs/browser';
 
 export default function ZTempaltePage() {
@@ -79,7 +82,7 @@ export default function ZTempaltePage() {
     
     // Prepare template parameters
     const templateParams = {
-      to_email: "prem24052000@gmail.com",
+      to_email: "prem24052000@gmail.com , shashwat@zelthy.com",
       from_name: formData.patientName,
       from_email: formData.patientEmail,
       message: formData.issues,
@@ -115,7 +118,10 @@ export default function ZTempaltePage() {
     <div className="flex items-center w-full justify-between min-h-screen">
  {/* Desktop Image */}
  <ThemeBg className="hidden md:block absolute top-0 left-0 w-full h-full object-cover z-0" />
-   
+
+ {/* Mobile view */}
+ 
+ <MobileBg className="block md:hidden absolute top-0 left-0 w-full h-full object-cover z-0 " />
       
       {/* <div className="relative w-full flex flex-col items-center px-4 md:px-0"> */}
         {/* Content area - adjusted for responsiveness */}
