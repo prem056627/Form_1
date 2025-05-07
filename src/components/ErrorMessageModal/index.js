@@ -33,10 +33,10 @@ export default function ErrorMessageModal({
 						leaveFrom="opacity-100"
 						leaveTo="opacity-0"
 					>
-						<Dialog.Overlay
+						{/* <Dialog.Overlay
 							className="fixed inset-0 backdrop-blur-sm transition-opacity"
 							onClick={handleOverlayClick}
-						/>
+						/> */}
 					</Transition.Child>
 
 					<span
@@ -74,14 +74,14 @@ export default function ErrorMessageModal({
 										{errorMessage}
 									</div>
 								</div>
-								<footer className="flex w-full flex-row items-center justify-end border-t border-[#3F4151] py-3 px-4">
+								{/* <footer className="flex w-full flex-row items-center justify-end border-t border-[#3F4151] py-3 px-4">
 									<button
 										className="form-primary-cta"
 										onClick={() => setVisible(false)}
 									>
 										Go Back
 									</button>
-								</footer>
+								</footer> */}
 							</div>
 						</div>
 					</Transition.Child>

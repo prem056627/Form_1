@@ -181,7 +181,7 @@ export default function EditUserDetailsModal() {
 						leaveFrom="opacity-100"
 						leaveTo="opacity-0"
 					>
-						<div className="fixed inset-0 bg-black bg-opacity-[.67]" />
+						{/* <div className="fixed inset-0 bg-black bg-opacity-[.67]" /> */}
 					</Transition.Child>
 
 					<Transition.Child
@@ -193,7 +193,7 @@ export default function EditUserDetailsModal() {
 						leaveFrom="translate-x-0"
 						leaveTo="translate-x-full"
 					>
-						<div className="fixed inset-0 overflow-y-auto">
+						{/* <div className="fixed inset-0 overflow-y-auto">
 							<div className="flex h-screen max-h-screen min-h-full grow items-center justify-center text-center md:justify-end">
 								<Dialog.Panel className="relative flex h-screen max-h-screen min-h-full w-full max-w-[498px] transform flex-col gap-[32px] overflow-hidden bg-white px-[24px] pt-[52px] pb-[40px] text-left align-middle shadow-xl transition-all md:pl-[32px] md:pr-[72px] md:pt-[32px]">
 									<div className="flex justify-end md:absolute md:top-0 md:right-0">
@@ -215,7 +215,7 @@ export default function EditUserDetailsModal() {
 									<EditUserDetailsForm closeModal={closeModal} />
 								</Dialog.Panel>
 							</div>
-						</div>
+						</div> */}
 					</Transition.Child>
 				</Dialog>
 			</Transition>

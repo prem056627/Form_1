@@ -88,7 +88,7 @@ export default function SelectField({ label }) {
 								{({ active }) => (
 									<NavLink
 										exact="true"
-										to={`/platform/user-managements`}
+										to={`/Privacyform`}
 										className="relative flex items-center px-[16px] py-[4px]"
 										children={({ isActive }) => {
 											return (

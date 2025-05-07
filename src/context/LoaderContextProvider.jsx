@@ -19,7 +19,7 @@ export default function LoaderContextProvider({ children }) {
 	return (
 		<LoaderContext.Provider value={contextValue}>
 			{children}
-			{isLoading && <div className="overlay-spinner" />}
+			{/* {isLoading && <div className="overlay-spinner" />} */}
 		</LoaderContext.Provider>
 	);
 }

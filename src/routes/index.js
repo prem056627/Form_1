@@ -5,12 +5,12 @@ export const AppRoutes = () => {
 	return (
 		<Routes>
 			<Route
-				path="/platform/user-managements/*"
+				path="/Privacyform/*"
 				element={<ZTemplatePageRoutes />}
 			></Route>
 			<Route
 				path="*"
-				element={<Navigate to="./platform/user-managements/*" />}
+				element={<Navigate to="./Privacyform/*" />}
 			/>
 		</Routes>
 	);
